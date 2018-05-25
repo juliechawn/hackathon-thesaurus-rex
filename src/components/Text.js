@@ -31,7 +31,7 @@ class Text extends Component {
     event.preventDefault();
     const url = "http://words.bighugelabs.com/api/2/ae20e1ed4d471a357983df53d1e40ad2/" + this.state.word + "/json";
 
-    get(url)
+    axios.get(url)
       .then((response) => {  
         let adj = []
         let noun = []
@@ -70,7 +70,7 @@ class Text extends Component {
   render() {
     return (
 
-      <div className="containter">
+      <div className="containter" id="container">
 
       <div id="body">
 

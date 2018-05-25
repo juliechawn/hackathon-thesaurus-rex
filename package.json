@@ -1,36 +1,37 @@
 {
-    "name": "hackathon-thesaurus-rex",
-    "version": "1.0.0",
-    "description": "hackathon",
-    "main": "index.js",
-    "scripts": {
-      "build": "npm run && webpack",
-      "start": "npm run build && node server/index.js",
-      "dev": "webpack-dev-server",
-      "watch": "webpack"
-    },
-    "author": "Julie C Hawn",
-    "license": "MIT",
-    "devDependencies": {
-      "babel-core": "^6.26.0",
-      "babel-loader": "^7.1.4",
-      "babel-preset-airbnb": "^2.4.0",
-      "babel-preset-env": "^1.6.1",
-      "babel-preset-react": "^6.24.1",
-      "babel-preset-stage-3": "^6.24.1",
-      "cors": "^2.8.4",
-      "css-loader": "^0.28.11",
-      "file-loader": "^1.1.11",
-      "image-webpack-loader": "^4.2.0",
-      "style-loader": "^0.20.3",
-      "url-loader": "^1.0.1",
-      "webpack": "^3.6.0"
-    },
-    "dependencies": {
-      "express": "^4.16.3",
-      "json-loader": "^0.5.7",
-      "morgan": "^1.9.0",
-      "react": "^16.3.1",
-      "react-dom": "^16.3.1"
-    }
+  "name": "hackathon-thesaurus-rex",
+  "version": "1.0.0",
+  "description": "hackathon",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run && webpack",
+    "start": "npm run build && node server/index.js",
+    "dev": "webpack-dev-server",
+    "watch": "webpack"
+  },
+  "author": "Julie C Hawn",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "image-webpack-loader": "^4.2.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "json-loader": "^0.5.7",
+    "morgan": "^1.9.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
   }
+}
