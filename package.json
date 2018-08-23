@@ -2,7 +2,7 @@
   "name": "hackathon-thesaurus-rex",
   "version": "1.0.0",
   "description": "hackathon",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack && node server/index.js",
