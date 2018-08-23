@@ -4,7 +4,7 @@
   "description": "hackathon",
   "main": "index.js",
   "scripts": {
-    "build": "npm run && webpack",
+    "build": "webpack",
     "start": "webpack && node server/index.js",
     "dev": "webpack-dev-server",
     "watch": "webpack"
