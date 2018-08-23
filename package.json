@@ -5,9 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack && node server/index.js",
-    "dev": "webpack-dev-server",
-    "watch": "webpack"
+    "start": "webpack && node server/index.js"
   },
   "author": "Julie C Hawn",
   "license": "MIT",
